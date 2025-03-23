@@ -1,0 +1,36 @@
+{
+  "name": "mcp-server-promua",
+  "version": "0.1.0",
+  "description": "MCP server для роботи з API Prom.ua",
+  "license": "MIT",
+  "type": "module",
+  "author": "Your Name",
+  "keywords": [
+    "mcp",
+    "promua",
+    "e-commerce",
+    "api"
+  ],
+  "bin": {
+    "mcp-server-promua": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "shx": "^0.3.4",
+    "typescript": "^5.3.2"
+  }
+}
