@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Базова URL для API Prom.ua
-const API_URL = process.env.PROMUA_API_URL || 'https://api.prom.ua';
+const API_URL = process.env.PROMUA_API_URL || 'https://my.prom.ua';
 const API_KEY = process.env.PROMUA_API_KEY;
 
 // Створення інстансу axios з авторизацією
