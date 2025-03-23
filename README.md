@@ -37,13 +37,13 @@ npx mcp-server-promua
 1. Через файл `.env`:
 ```
 PROMUA_API_KEY=your_api_key_here
-PROMUA_API_URL=https://api.prom.ua
+PROMUA_API_URL=https://my.prom.ua
 ```
 
 2. Через змінні середовища:
 ```bash
 export PROMUA_API_KEY=your_api_key_here
-export PROMUA_API_URL=https://api.prom.ua
+export PROMUA_API_URL=https://my.prom.ua
 ```
 
 ## Використання з Claude Desktop
